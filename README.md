@@ -137,11 +137,42 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
 ![image](https://github.com/user-attachments/assets/ef65ec6e-44c5-4e22-9455-617994a8ee04)
 
+  - Go to Active Directory Users and Computers
+
+![image](https://github.com/user-attachments/assets/a73f20b9-b068-43f7-9101-963f08f98ba5)
+
+  - Within ADUC, click _EMPLOYEES and look for the account -> once found, right click and select Properties
+
+![image](https://github.com/user-attachments/assets/f536b85e-f8fe-44e9-ad91-a060f7e2235d)
+
+  - Click Account -> click checkbox Unlock account -> click Apply -> Click OK
+
+![image](https://github.com/user-attachments/assets/3e94f9ec-22d9-4ed5-91dc-03bd1f838682)
+
+<br />
+
+<h4>Reset the account's password</h4>
+
+  - Right click on the same account -> click Reset Password
+
+![image](https://github.com/user-attachments/assets/4be3672f-513c-4d67-9eec-34dac89f2593)
+
+  - Fill new password -> click Unlock Account -> click OK
+
+![image](https://github.com/user-attachments/assets/48b17b1a-ee20-40d7-a10f-9bbb1850892f)
+
+![image](https://github.com/user-attachments/assets/f8cd373e-6dc9-40ec-88c4-6d5e173ffd1f)
+
+<br />
+
+<h4>Attempt to log in with the unlocked account</h4>
+
+
+
 -----------------------------------------------------
 
 
-Observe that the account has been locked out within Active Directory
-Unlock the account
+
 Reset the password
 Attempt to login with it
 
