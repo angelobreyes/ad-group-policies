@@ -28,7 +28,7 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
 <h2>Configuration Steps</h2>
 
-<h3>Managing Account Lockout Policy</h3>
+<h3>Configuring Account Lockout Policy</h3>
 
   - Log in to DC-1 using admin account (Jane)
 
@@ -38,15 +38,74 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
 ![image](https://github.com/user-attachments/assets/18b50c8b-00fe-4006-95b9-f10a69b43047)
 
-  - Within DC-1, 
+  - Within DC-1, type gpmc.msc on the search bar and click gpmc.msc
+
+![image](https://github.com/user-attachments/assets/11bfdda4-54ea-455f-80a7-c67cf874ba41)
+
+  - Within Group Policy Management, expand the following:
+      
+  - Forest -> Domains -> mydomain.com -> right click Default Domain Policy -> click Edit
+
+![image](https://github.com/user-attachments/assets/1e358db9-820f-43f2-8b5c-6cdd931e06b9)
+
+  - Expand the following:
+  - Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Click Account Lockout Policy
+
+![image](https://github.com/user-attachments/assets/b3ef200d-9538-4816-b17c-7f2844238041)
+
+<br />
+
+<h4>There are 3 primary settings that you need to configure:</h4>
+  
+  - <b>Account Lockout Duration</b>: The time in minutes that an account remains locked before it is automatically unlocked.
+
+  - Right click Account lockout duration -> Properties 
+
+![image](https://github.com/user-attachments/assets/c0ac9157-625b-4e37-8531-44dbb8c7ba15)
+
+  - Click checkbox -> Set time -> Click Apply -> Click OK -> Click OK
+
+![image](https://github.com/user-attachments/assets/f1756fe1-d526-4b84-8418-6bafa8670c4f)
+
+![image](https://github.com/user-attachments/assets/5a19394a-b7ac-421a-a577-35007276dfff)
+
+![image](https://github.com/user-attachments/assets/c723bdbc-b58f-4e0b-b271-b964c3c7091f)
+
+<br />
+
+  - <b>Account Lockout Threshold</b>: The number of failed logon attempts that will trigger an account lockout.
+      - This is automatically set but you can change it the same way
+
+  - <b>Reset Account Lockout Counter After</b>: The time in minutes after which the failed logon attempts counter is reset to 0, assuming there are no additional failed logon attempts.
+      - This is automatically set but you can change it the same way
+
+<br />
+
+  - Go back to Group Policy Management -> Click Default Domain Policy -> Click Settings -> Scroll down
+  - You can see the policy is now in place
+
+![image](https://github.com/user-attachments/assets/10aa7ed5-1861-43ea-b0a6-973ba1223e69)
+
+<h4>Enforce Group Policy</h4>
+
+  - Log in to Client-1 using admin account (Jane)
+
+![image](https://github.com/user-attachments/assets/d56a0907-571b-43db-9c5e-236cdc532ce5)
+
+![image](https://github.com/user-attachments/assets/6339a3fe-d9ee-4c00-afe9-d1257a2218dd)
+
+![image](https://github.com/user-attachments/assets/76eae0a2-afcd-481e-b165-2cead0082b15)
+
+  - Within Client-1, 
 
 
+<br />
 
 <h3>Dealing with Account Lockouts</h3>
 
 <h4>Log in to Client-1</h4>
 
-  - From the previous lab, use your chosen User and log in to DC-1 with a <b>bad password</b> 10 times
+  - From the previous lab, use your chosen User and log in to Client-1 with a <b>bad password</b> 10 times
   - This will result into that account being locked out
 
 ![image](https://github.com/user-attachments/assets/1ae32c2c-b51e-454d-a701-2f3a7d450317)
