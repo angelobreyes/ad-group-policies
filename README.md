@@ -3,7 +3,9 @@
 </p>
 
 <h1>Active Directory: Group Policies and Managing Accounts</h1>
-Welcome to the next part of ! This tutorial outlines examples and implementation of Group Policies within Active Directory. 
+Welcome! This tutorial outlines examples and implementation of Group Policies within Active Directory. 
+
+*(This tutorial requires <a href ="https://github.com/angelobreyes/configure-ad">Active Directory within Azure virtual machines</a>, please check it out first if you haven't.)* 
 
 <br />
 
@@ -19,3 +21,44 @@ Welcome to the next part of ! This tutorial outlines examples and implementation
 - Windows 10 (21H2) (Virtual Machine)
 
 <h2>Overview</h2>
+
+  - Dealing with Account Lockouts
+  - Enabling and Disabling Accounts
+
+<h2>Configuration Steps</h2>
+
+<h3>Dealing with Account Lockouts</h3>
+
+<h4>Log in to Client-1</h4>
+
+  - From the previous lab, use your chosen User and log in to DC-1 with a <b>bad password</b> 10 times
+  - This will result into that account being locked out
+
+![image](https://github.com/user-attachments/assets/1ae32c2c-b51e-454d-a701-2f3a7d450317)
+
+
+-----------------------------------------------------
+Dealing with Account Lockouts
+Get logged into dc-1
+Pick a random user account you created previously
+Attempt to log in with it 10 times with a bad password
+
+Configure Group Policy to Lockout the account after 5 attempts:
+How To Configure Account Lockout Threshold in Group Policy
+
+Attempt to log in with it 6 times with a bad password
+
+Observe that the account has been locked out within Active Directory
+Unlock the account
+Reset the password
+Attempt to login with it
+
+Enabling and Disabling Accounts
+Disable the same account in Active Directory
+Attempt to login with it, observe the error message
+Re-enable the account and attempt to login with it.
+
+Observing Logs
+Observe the logs in the Domain Controller
+Observe the logs on the client Machine
+Precursor to cybersecurity and security operations: joshmadakor.tech/cyber
