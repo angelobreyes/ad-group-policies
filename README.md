@@ -2,8 +2,8 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-Welcome! This tutorial outlines examples and implementation of Group Policies within Active Directory. If you don't have a Microsoft Azure account, go to <a href="https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account">Azure</a>  for a free account with $200 credit so you can start.
+<h1>Active Directory: Group Policies and Managing Accounts</h1>
+Welcome to the next part of ! This tutorial outlines examples and implementation of Group Policies within Active Directory. 
 
 <br />
 
