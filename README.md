@@ -116,24 +116,29 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
 <h4>Log in to Client-1</h4>
 
-  - From the previous lab, use your chosen User and log in to Client-1 with a <b>bad password</b> 10 times
+  - From the previous lab, use your chosen User and log in to Client-1 with a <b>bad password</b> 5-6 times
   - This will result into that account being locked out
 
 ![image](https://github.com/user-attachments/assets/1ae32c2c-b51e-454d-a701-2f3a7d450317)
 
 ![image](https://github.com/user-attachments/assets/e806781e-12eb-42fa-9a76-f5c79d37b90c)
 
+![image](https://github.com/user-attachments/assets/9c051bf3-4e03-45e5-b90a-a524e2f7e967)
+
+<br />
+
+<h4>Unlock the account within the Domain Controller</h4>
+
+  - Log in to DC-1 as admin account (Jane)
+
+![image](https://github.com/user-attachments/assets/9e579d20-48a6-4c8a-9f31-42e21b86dd10)
+
+![image](https://github.com/user-attachments/assets/1bce3c94-9da0-4e9b-879f-feb21ff2de73)
+
+![image](https://github.com/user-attachments/assets/ef65ec6e-44c5-4e22-9455-617994a8ee04)
 
 -----------------------------------------------------
-Dealing with Account Lockouts
-Get logged into dc-1
-Pick a random user account you created previously
-Attempt to log in with it 10 times with a bad password
 
-Configure Group Policy to Lockout the account after 5 attempts:
-How To Configure Account Lockout Threshold in Group Policy
-
-Attempt to log in with it 6 times with a bad password
 
 Observe that the account has been locked out within Active Directory
 Unlock the account
