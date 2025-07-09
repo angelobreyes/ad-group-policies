@@ -96,8 +96,19 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
 ![image](https://github.com/user-attachments/assets/76eae0a2-afcd-481e-b165-2cead0082b15)
 
-  - Within Client-1, 
+  - Within Client-1, type command in search box and click Command Prompt
 
+![image](https://github.com/user-attachments/assets/484016eb-0a86-40e1-b5fc-882f80a53d35)
+
+  - Within Command Prompt, type gpupdate /force and press Enter
+
+![image](https://github.com/user-attachments/assets/2978eec7-bcd8-4e2f-9203-ca29b0c662ad)
+
+![image](https://github.com/user-attachments/assets/53bd62b3-c5fe-4150-8c5f-dc430f6dba2c)
+
+  - Log out of Client-1
+
+![image](https://github.com/user-attachments/assets/905e54b0-7f18-4392-bd1f-114a144f9613)
 
 <br />
 
@@ -111,7 +122,6 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 ![image](https://github.com/user-attachments/assets/1ae32c2c-b51e-454d-a701-2f3a7d450317)
 
 ![image](https://github.com/user-attachments/assets/e806781e-12eb-42fa-9a76-f5c79d37b90c)
-
 
 
 -----------------------------------------------------
