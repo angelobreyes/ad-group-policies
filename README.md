@@ -22,10 +22,25 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
 <h2>Overview</h2>
 
+  - Configuring Account Lockout Policy
   - Dealing with Account Lockouts
   - Enabling and Disabling Accounts
 
 <h2>Configuration Steps</h2>
+
+<h3>Managing Account Lockout Policy</h3>
+
+  - Log in to DC-1 using admin account (Jane)
+
+![image](https://github.com/user-attachments/assets/4f3ba5ff-07f5-4937-b144-310e82ab2653)
+
+![image](https://github.com/user-attachments/assets/21cdd377-a807-419e-8a8f-458c1658396f)
+
+![image](https://github.com/user-attachments/assets/18b50c8b-00fe-4006-95b9-f10a69b43047)
+
+  - Within DC-1, 
+
+
 
 <h3>Dealing with Account Lockouts</h3>
 
@@ -35,6 +50,9 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
   - This will result into that account being locked out
 
 ![image](https://github.com/user-attachments/assets/1ae32c2c-b51e-454d-a701-2f3a7d450317)
+
+![image](https://github.com/user-attachments/assets/e806781e-12eb-42fa-9a76-f5c79d37b90c)
+
 
 
 -----------------------------------------------------
