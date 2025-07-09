@@ -203,14 +203,21 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
   - Attempt to log in to Client-1 with it and observe the error message
 
+![image](https://github.com/user-attachments/assets/59b152d4-1551-42f5-8734-da994aed12f6)
 
+![image](https://github.com/user-attachments/assets/278220f1-ce52-4010-a9ad-cfc129c197a5)
 
+![image](https://github.com/user-attachments/assets/712053f5-a18a-455a-9088-0ab1de285935)
+
+<h4>Re-enable the account and attempt to login</h4>
+
+  - Go back to DC-1, 
 
 -----------------------------------------------------
 
 
 
-Re-enable the account and attempt to login with it.
+
 
 Observing Logs
 Observe the logs in the Domain Controller
