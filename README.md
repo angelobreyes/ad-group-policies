@@ -211,15 +211,28 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
 <h4>Re-enable the account and attempt to login</h4>
 
-  - Go back to DC-1, 
+  - Go back to DC-1 -> Active Directory Users and Computers -> Look for the account
 
------------------------------------------------------
+![image](https://github.com/user-attachments/assets/1d9c50ef-fa96-4bde-a23f-14173ee12897)
 
+  - Right click on the account and click Enable Acccount -> click OK
 
+![image](https://github.com/user-attachments/assets/7c46d63e-23b2-4a48-88d5-c436b3db5242)
 
+![image](https://github.com/user-attachments/assets/99d3baf3-1fc1-4dd4-913a-02cf3cfddf91)
 
+<br />
 
-Observing Logs
-Observe the logs in the Domain Controller
-Observe the logs on the client Machine
-Precursor to cybersecurity and security operations: joshmadakor.tech/cyber
+<h4>Attempt to log in to Client-1 with the unlocked account</h4>
+
+![image](https://github.com/user-attachments/assets/f03cf8f7-8ce0-4acf-a3c3-8574afdb1e3d)
+
+![image](https://github.com/user-attachments/assets/464943ad-97e5-4a4a-9388-b7e57040dd77)
+
+![image](https://github.com/user-attachments/assets/f4c0d979-a7d3-47bf-b4f4-fef0fcfb6991)
+
+![image](https://github.com/user-attachments/assets/dea9ead1-eda7-4104-9952-2f3fbcff6502)
+
+<br />
+
+<h2>Hope you found this helpful! <a href="https://github.com/angelobreyes/azure-network-protocols">Here's</a> the last step of the guide.</h2>
