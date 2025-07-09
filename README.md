@@ -165,18 +165,24 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
 <br />
 
-<h4>Attempt to log in with the unlocked account</h4>
+<h4>Attempt to log in to Client-1 with the unlocked account</h4>
+
+![image](https://github.com/user-attachments/assets/f03cf8f7-8ce0-4acf-a3c3-8574afdb1e3d)
+
+![image](https://github.com/user-attachments/assets/464943ad-97e5-4a4a-9388-b7e57040dd77)
+
+![image](https://github.com/user-attachments/assets/f4c0d979-a7d3-47bf-b4f4-fef0fcfb6991)
+
+![image](https://github.com/user-attachments/assets/dea9ead1-eda7-4104-9952-2f3fbcff6502)
+
+<br />
+
+<h3>Enabling and Disabling Accounts</h3>
 
 
 
 -----------------------------------------------------
 
-
-
-Reset the password
-Attempt to login with it
-
-Enabling and Disabling Accounts
 Disable the same account in Active Directory
 Attempt to login with it, observe the error message
 Re-enable the account and attempt to login with it.
