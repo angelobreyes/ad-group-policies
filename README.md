@@ -179,11 +179,27 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
 <h3>Enabling and Disabling Accounts</h3>
 
+<h4>Disable the same account in Active Directory</h4>
+
+  - Log in to DC-1 as admin account (Jane)
+
+![image](https://github.com/user-attachments/assets/9e579d20-48a6-4c8a-9f31-42e21b86dd10)
+
+![image](https://github.com/user-attachments/assets/1bce3c94-9da0-4e9b-879f-feb21ff2de73)
+
+![image](https://github.com/user-attachments/assets/ef65ec6e-44c5-4e22-9455-617994a8ee04)
+
+  - Go to Active Directory Users and Computers
+
+![image](https://github.com/user-attachments/assets/a73f20b9-b068-43f7-9101-963f08f98ba5)
+
+  - Click on _EMPLOYEES and look for the same account
+
 
 
 -----------------------------------------------------
 
-Disable the same account in Active Directory
+
 Attempt to login with it, observe the error message
 Re-enable the account and attempt to login with it.
 
