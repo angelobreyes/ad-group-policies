@@ -193,14 +193,23 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
 ![image](https://github.com/user-attachments/assets/a73f20b9-b068-43f7-9101-963f08f98ba5)
 
-  - Click on _EMPLOYEES and look for the same account
+  - Click _EMPLOYEES and look for the same account -> right click on account -> click Disable Account
+
+![image](https://github.com/user-attachments/assets/9d39a3e8-3f99-46dd-a4e5-54755f9aadac)
+
+  - Click OK
+
+![image](https://github.com/user-attachments/assets/f58dc1e6-7a06-4371-a2bc-a0466579f271)
+
+  - Attempt to log in to Client-1 with it and observe the error message
+
 
 
 
 -----------------------------------------------------
 
 
-Attempt to login with it, observe the error message
+
 Re-enable the account and attempt to login with it.
 
 Observing Logs
