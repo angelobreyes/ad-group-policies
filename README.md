@@ -235,4 +235,4 @@ Welcome! This tutorial outlines examples and implementation of Group Policies wi
 
 <br />
 
-<h2><a href="https://github.com/angelobreyes/azure-network-protocols">Here's</a> the last step of the guide.</h2>
+<h2>Hope you found this guide helpful, cheers!</h2>
